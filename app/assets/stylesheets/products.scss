@@ -78,6 +78,21 @@ form input[type="submit"]{
   }
 }
 
+#product{
+  img{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+  }
+
+  p{
+    font-size: 2em;
+  }
+  &>*{
+    margin-bottom: 70px;
+  }
+}
+
 
 
 
