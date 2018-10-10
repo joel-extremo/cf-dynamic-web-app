@@ -26,37 +26,6 @@ h1{
   }
 }
 
-
-//table
-
-.table{
-  width: 100%;
-  text-align: center;
-
-  & .product-img{
-    width: 70px;
-    height: 70px;
-    border-radius: 100%;
-  }
-
-  & > tbody > tr > td {
-    vertical-align: middle;
-  }
-
-  & th{
-    font-size: 1.2em;
-    font-weight: bold;
-  }
-
-  & i{
-    color: black;
-
-    &:hover{
-      color: $primary-color;
-    }
-  }
-}
-
 #add-product-btn{
   background-color: white;
   color: $primary-color;
