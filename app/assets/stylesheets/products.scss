@@ -10,22 +10,22 @@ h1{
   color: $primary-color;
 }
 
-.card{
-  .action{
-    margin-top: 50px;
-    text-align: center;
+
+.card .actions{
+  margin-top: 50px;
+  text-align: center;
 
 
-    & i{
-      color: $primary-color;
-      font-size: 1.5em;
+  & i{
+    color: $primary-color;
+    font-size: 1.5em;
 
-      &:hover{
-        color: black;
-      }
+    &:hover{
+      color: black;
     }
   }
 }
+
 
 //table
 
