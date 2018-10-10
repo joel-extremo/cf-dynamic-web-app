@@ -2,26 +2,42 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-$font-stack:    Helvetica, sans-serif;
-$primary-color: #cf649a;
+$primary-color: #e65ea3;
 
 h1{
+  text-align: center;
   margin-bottom: 60px;
   color: $primary-color;
 }
 
-h1,
-table {
+/*** table ***/
+
+.table{
+  width: 100%;
   text-align: center;
-}
 
-table{
-    width: 100%;
-}
+  & .product-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+  }
 
-th{
+  & > tbody > tr > td {
+    vertical-align: middle;
+  }
+
+  & th{
     font-size: 1.2em;
     font-weight: bold;
+  }
+
+  & i{
+    color: black;
+
+    &:hover{
+      color: $primary-color;
+    }
+  }
 }
 
 #add-product-btn{
@@ -40,6 +56,32 @@ th{
   right: 0;
   margin-bottom: 40px;
   margin-right: 40px;
+
+  &:hover{
+    background-color: #f2f2f2;
+  }
 }
+
+textarea,
+input{
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+form input[type="submit"]{
+  border-radius: 20px;
+  background-color: $primary-color;
+  color: white;
+
+  &:hover{
+    background-color: #cf649a;
+  }
+}
+
+
+
+
+
+
 
 
