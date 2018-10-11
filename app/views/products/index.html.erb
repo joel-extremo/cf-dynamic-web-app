@@ -6,8 +6,6 @@
   <div class="row">
     <% @products.each do |product| %>
       <div class="col-sm">
-        
-
         <div class="card" style="width: 18rem;">
           <%= image_tag(product.image_url, class: "card-img-top", alt: 'product_img')%>
           <div class="card-body">
@@ -36,7 +34,6 @@
             </p>
           </div>
         </div>
-
       </div><!-- /col -->
     <% end %>
   </div>
